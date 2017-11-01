@@ -1,0 +1,32 @@
+{
+  "name": "stemis/jura-partnernet-client",
+  "type": "library",
+  "description": "A PHP Client for the Jura Partnernet",
+  "keywords": [
+    "api",
+    "php",
+    "Jura",
+    "Partnernet",
+    "Dealerportal"
+  ],
+  "homepage": "http://github.com/stemis/jura-partnernet-php-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Steff Missot",
+      "email": "me@stemis.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stemis\\": "src/Stemis"
+    }
+  }
+}
