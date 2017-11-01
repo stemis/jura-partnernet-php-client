@@ -52,3 +52,4 @@ If you do find an issue, please use the issues tab to report it!
 ## Future Work
 - Adding Unit Tests using Mockery
 - Adding more detailed information about items
+- Adding more exceptions such as ItemNotFound in the ItemRepository
