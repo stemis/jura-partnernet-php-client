@@ -6,6 +6,9 @@ This can be useful when A person orders bean machines via either a webshop or ot
 
 This client utilizes the web portal and copies the exact HTTP calls made to the Cobalt back-end to achieve the goals.
 
+## Installation
+`composer require stemis/jura-partnernet-client`
+
 ## Example code
 
 ```
